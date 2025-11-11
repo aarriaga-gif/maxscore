@@ -1,16 +1,19 @@
 #!/bin/bash
+# maxscore.sh
+# Anthony Arriaga
+# CENG 298
 
 echo "Enter 5 positive integers:"
 for ((i=0; i<5; i++))
 do
-  read score[i]
+  read -r "score[$i]"
 done
 
-max=${score[0]}
+max="${score[0]}"
 for ((i=1; i<5; i++))
 do
-  if [ ${score[i]} -gt $max ]; then
-    max=${score[i]}
+  if [ "${score[$i]}" -gt "$max" ]; then
+    max="${score[$i]}"
   fi
 done
 
@@ -19,6 +22,6 @@ echo "The scores and their differences from the max are:"
 
 for ((i=0; i<5; i++))
 do
-  diff=$((max - ${score[i]}))
-  echo "${score[i]} differs from max by $diff"
+  diff=$((max - score[i]))
+  echo "${score[$i]} differs from max by $diff"
 done
