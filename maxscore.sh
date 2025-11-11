@@ -9,7 +9,7 @@ do
   read -r "score[$i]"
 done
 
-max="${score[0]}"
+max= ${score[0]} 
 for ((i=1; i<5; i++))
 do
   if [ "${score[$i]}" -gt "$max" ]; then
