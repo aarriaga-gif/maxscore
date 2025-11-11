@@ -4,6 +4,7 @@
 # CENG 298
 
 echo "Enter 5 positive integers:"
+declare -a score 
 for ((i=0; i<5; i++))
 do
   read -r "score[$i]"
