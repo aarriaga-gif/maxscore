@@ -1,13 +1,13 @@
 # README for Username Validation Script
 
 ## Author Information
-- **Name:** [Your Full Name]
-- **Course:** [Course Number and Name]
+- **Name:** [Anthony Arriaga]
+- **Course:** [CENG 298]
 - **Assignment:** Maxscore Assignment
-- **Date:** [Date of Completion]
+- **Date:** [11/10/25]
 
 ## Program Description
-[Write 2-3 sentences in your own words describing what this script does and its purpose. Explain the problem it solves and how it works at a high level.]
+[This script reads five positive integers from the user, stores them in an array, and finds the highest score. It then displays the highest score and shows how much each score differs from it.]
 
 ## Usage
 To run the script interactively:
@@ -21,21 +21,20 @@ To test with the provided input file:
 ```
 
 ## How the Script Works
-[Explain in 3-5 sentences how your script works. Include information about:]
-- How you read and store numbers in an array
-- How you loop through the array to find the maximum value
-- How you calculate and display the difference between each score and the highest
+- Reads five numbers from the user and stores them in an array.
+- Loops through the array to find the highest score.
+- Calculates and displays how much each score differs from the highest.
 
 ## Testing Results
 [Describe your testing process and results. Include:]
-- Example successful inputs and results
-- How you used the maxscore-input file to test
+- some example integers are 1-100 and then it tells the differance between them for example if the highest number inputed is 15 and the lowest is 2 the differance is 13
+- it iputs those numbers in that file then tells the differance
 
 ## Challenges and Solutions
 [Optional: Describe any challenges you encountered while creating this script and how you solved them. This could include debugging issues, arrays, or Git workflow problems.]
 
 ## Resources
-[List any resources you used (class slides, ChatGPT, etc.). Please refer to the course syllabus for more details on citations.]
+[class slides, little ChatGPT]
 
 ## License
 This project is part of coursework for Chapman University and is intended for educational purposes.
